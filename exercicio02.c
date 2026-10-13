@@ -1,8 +1,3 @@
-//2. Altere a busca sequencial para que ela não pare na primeira ocorrência. 
-//O programa lê 10 números inteiros, pergunta o valor procurado e 
-//mostra todas as posições em que ele aparece, a quantidade total 
-//de ocorrências e o número de comparações. 
-
 #include <stdio.h>
 
 #define TAM 10
