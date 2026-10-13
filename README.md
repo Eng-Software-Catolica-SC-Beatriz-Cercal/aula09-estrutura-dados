@@ -34,3 +34,10 @@ A pesquisa indexada usa dados ordenados e um índice auxiliar que aponta para bl
 ### Hashing
 
 O hashing usa uma função matemática, chamada função hash, que transforma a chave de busca em uma posição da tabela, o que permite acessar o elemento de forma praticamente imediata. É indicado para sistemas com grande volume de dados, pela rapidez da busca. Sua limitação é que duas ou mais chaves podem gerar a mesma posição (colisão), o que exige técnicas como a tentativa linear ou listas encadeadas, e que é preciso uma boa função hash para distribuir os elementos de forma equilibrada.
+
+## Equipe
+       <a href="https://github.com/BeatrizCercal">
+        <img src="https://github.com/BeatrizCercal.png" width="100" style="border-radius:50%" alt="BeatrizCercal"><br>
+        <sub><b>BeatrizCercal</b></sub>
+      </a>
+    </td>
