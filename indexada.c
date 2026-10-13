@@ -40,15 +40,16 @@ int main(void){
         printf("[%i] %i\n", i, v[i]);
     }
 
+     for(i = 0; i < TAM_INDICE; i++){
+        indice[i] = v[i * BLOCO];
+        inicioBloco[i] = i * BLOCO;
+    }
+    
     printf("\nIndice auxiliar:\n");
     for(i = 0; i < TAM_INDICE; i++){
         printf("Bloco %i -> %i\n", i, indice[i]);
     }
 
-    for(i = 0; i < TAM_INDICE; i++){
-        indice[i] = v[i * BLOCO];
-        inicioBloco[i] = i * BLOCO;
-    }
 
     printf("\nBuscando o valor %i...\n\n", numero);
 
